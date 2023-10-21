@@ -7,21 +7,22 @@ html, body{
     margin: 0;
     height: 100vh;
     text-align: center;
+    
 }
 .header{
-    background-image: url(./img/hero.jpeg);
+    background-image: url(../img/Portada.jpg);
     background-repeat: no-repeat;
     background-position: 50% 60%;
     background-attachment: scroll;
     background-size: cover;
     height: 40vh;
     margin: 0;
-    padding-top: 60vh;
+    padding-top: 30vh;
 }
-.heading {
+h1.heading {
     color: #ffffff;
     display: block;
-    font-family: 'Caveat', cursive;
+    font-family: 'Allura';
     font-size: 6em;
     font-weight: normal;
     text-shadow: 0 0 10px #000;
@@ -29,9 +30,23 @@ html, body{
 .heading-subtext{
     color: #fff;
     display: block;
-    font-family: 'Caveat', cursive;
+    font-family: 'Cinzel', cursive;
     font-size: .6em;
 }
+
+div.row{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* CONTADOR */
+.col-xs-3{
+    width: 100px;
+    margin: 20px;
+}
+
+
 .fixed-button{
     background: rgba(20,20,20,.5);
     border-radius: 1em;
