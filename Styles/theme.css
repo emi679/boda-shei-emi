@@ -33,7 +33,9 @@ h1.heading {
     font-family: 'Cinzel', cursive;
     font-size: .6em;
 }
-
+.cuenta-regresiva{
+    background-color: #000;
+}
 div.row{    
     display: flex;
     flex-direction: row;
@@ -44,8 +46,12 @@ div.row{
 .col-xs-3{
     width: 100px;
     margin: 20px;
+    color: #ffffff;
 }
 
+.col-xs-3 h3, .col-xs-3 h4{
+    color: #CBA35C;
+}
 
 .fixed-button{
     background: rgba(20,20,20,.5);
@@ -78,16 +84,24 @@ div.row{
     padding: 1em 2.4em;
 }
 .sub-heading{
-    font-family: 'Caveat', cursive;
+    font-family: 'Cinzel', cursive;
     font-size: 3em;
     margin-top: 2em;
+    color:white;
+
 }
+section.ceremonia{
+    background-image: url("../img/fondoMarmolNegro.jpeg");
+    padding: 20px 0px 100px;
+}
+
 .details{
     margin: 0 auto 8em;
 }
 .details-heading{
     font-weight: bold;
     text-transform: uppercase;
+
 }
 .fas {
     font-size: 3em;
