@@ -88,18 +88,46 @@ div.row{
 .sub-heading{
     font-family: 'Cinzel', cursive;
     font-size: 3em;
-    margin-top: 2em;
     color:white;
+    margin-top: -5px;
 
 }
+.gif__copas{
+    margin-top: 50px;
+    width: 80px;
+}
+p{
+    color: #ffffff;
+    font-family: "Cinzel";
+}
+p.titulo{
+ font-size: 20px;
+}
+
+p.texto{    
+    font-size: 15px;
+    color: #ffffff96;
+}
+
+
 section.ceremonia{
     background-image: url("../img/fondoMarmolNegro.jpeg");
     padding: 20px 0px 100px;
+    margin-bottom: 80px;
 }
+section.ceremonia button{
+    background-color: #CBA35C;
+    padding: 10px;
+    border: none;
+    border-radius:15px;
+    margin-bottom: 40px;
+}
+
 
 /* __________________________ FOTOS __________________________ */
 
 .gif__camara{
+    margin-top: 20px;
     width: 60px;
 
 }
