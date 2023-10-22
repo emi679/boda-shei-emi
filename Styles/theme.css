@@ -98,6 +98,12 @@ section.ceremonia{
 }
 
 /* __________________________ FOTOS __________________________ */
+
+.gif__camara{
+    width: 60px;
+
+}
+
 .conteiner-slider{
     width: 80%;
     margin: auto;
