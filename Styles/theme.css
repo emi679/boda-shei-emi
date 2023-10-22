@@ -99,16 +99,17 @@ section.ceremonia{
 
 /* __________________________ FOTOS __________________________ */
 .conteiner-slider{
-    width: 90%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
 .slider{
     width: 400%;
-    height: 550px;
+    height: 750px;
     display: flex;
     flex-wrap: nowrap;
+    margin-left: 0%;
 }
 
 .slider__section{
@@ -121,18 +122,24 @@ section.ceremonia{
     height: 100%;
     object-fit: cover;
 }
+
+
 .slider__btn{
     position: absolute;
     transform: translateY(-550%);
     cursor: pointer;
+    padding: 0;
+    background-color: #ffffff3e;
+    border-radius:50%;
+    border: 0px;
 
 }
 
 i.bx{
     padding: 10px;
     font-size: 35px;
-    background-color: #CBA35C;
-    border-radius: 10%;
+    border-radius: 20%;
+    color: #0000007c;
 }
 
 .slider__btn__left{
