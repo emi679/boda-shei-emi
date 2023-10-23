@@ -17,7 +17,7 @@ html, body{
     background-position: 50% 60%;
     background-attachment: scroll;
     background-size: cover;
-    height: 45vh;
+    height: 49vh;
     margin: 0;
     padding-top: 30vh;
 }
@@ -47,12 +47,14 @@ div.row{
 /* CONTADOR */
 .col-xs-3{
     width: 100px;
-    margin: 20px;
+    margin: 20px 60px;
     color: #ffffff;
 }
 
 .col-xs-3 h3, .col-xs-3 h4{
     color: #CBA35C;
+    font-size: 20px;
+    font-family: 'Cinzel';
 }
 
 .fixed-button{
@@ -112,12 +114,15 @@ p.texto{
 
 section.ceremonia{
     background-image: url("../img/fondoMarmolNegro.jpeg");
-    padding: 20px 0px 100px;
-    margin-bottom: 80px;
+    padding: 20px 0px 80px;
+    margin-bottom: 70px;
 }
 section.ceremonia button{
     background-color: #CBA35C;
-    padding: 10px;
+    font-family: 'Cinzel';
+    font-weight: 500;
+    width: 250px;
+    height: 60px;
     border: none;
     border-radius:15px;
     margin-bottom: 40px;
@@ -177,11 +182,11 @@ i.bx{
 }
 
 .slider__btn__left{
-    left: 10px;
+    left: 50px;
 }
 
 .slider__btn__right{
-    right: 10px;
+    right: 50px;
 }
 
 
@@ -207,4 +212,25 @@ i.bx{
     .heading {
         font-size: 4em;
     }
-  }
+
+    .slider{
+        height: 470px;
+    }
+
+
+    .slider__btn{
+    transform: translateY(-450%);
+    }
+
+    .slider__btn__left{
+    left: 15px;
+    }
+
+    .slider__btn__right{
+    right: 15px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px){
+
+}
