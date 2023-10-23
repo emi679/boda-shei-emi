@@ -258,25 +258,21 @@ button.btn_card{
 
 
 
-.details{
-    margin: 0 auto 8em;
-}
-.details-heading{
-    font-weight: bold;
-    text-transform: uppercase;
-
-}
-.fas {
-    font-size: 3em;
-    opacity: .8;
-}
-.resort-image{
-    width: 100%
-}
-
 @media only screen and (max-width: 600px) {
+    .header{
+        height: 60vh;
+    }
     .heading {
-        font-size: 4em;
+        font-size: 0.25em;
+        padding: 0;
+    }
+
+    .heading-subtext{
+        color: #fff;
+        display: block;
+        font-family: 'Cinzel', cursive;
+        font-size: .25em;
+        margin-top: -15px;
     }
 
     .slider{
@@ -295,6 +291,61 @@ button.btn_card{
     .slider__btn__right{
     right: 15px;
     }
+
+    .cuenta-regresiva{
+        background-color: #1D1D1B;
+    }
+    div.row{    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.time-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /* ______________ CONTADOR _________________ */
+
+    .col-xs-3{
+        width: 60px;
+        margin: 15px 40px;
+        color: #ffffff;
+    }
+    
+    .col-xs-3 h3, .col-xs-3 h4{
+        color: #CBA35C;
+        font-size: 18px;
+        font-family: 'Cinzel';
+    }
+
+    /* ______________ FOTOS _________________ */
+    .slider__btn__left{
+        left: 70px;
+    }
+    
+    .slider__btn__right{
+        right: 70px;
+    }
+
+
+    /* ______________ CARDS _________________ */
+    section.card_section div.card-conteiner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section.card_section div.card-conteiner div.card{
+        margin-bottom: 40px;
+    }
+
+
+
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px){
