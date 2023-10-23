@@ -256,7 +256,8 @@ button.btn_card{
     margin-top: 30px;
     background-color: #CBA35C;
     font-family: 'Cinzel';
-    font-weight: 500;
+    font-weight: 800;
+    font-size: 19px;
     width: 180px;
     height: 50px;
     border: none;
@@ -299,10 +300,20 @@ section.card_section div.card-conteiner-qr div.card{
     margin: 0px 60px;
 }
 
+/* __________  FOOTER ______ */
 
+footer{
+    background-color: #1D1D1B;
+}
 
-
-
+p.heading{
+color: #CBA35C;
+    display: block;
+    font-family: 'Allura';
+    font-size: 6em;
+    font-weight: normal;
+    text-shadow: 0 0 10px #1D1D1B;
+}
 
 
 @media only screen and (max-width: 633px) {
