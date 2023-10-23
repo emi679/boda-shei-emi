@@ -179,9 +179,9 @@ div.conteiner-slider p{
 
 i.bx{
     padding: 10px;
-    font-size: 35px;
+    font-size: 55px;
     border-radius: 20%;
-    color: #0000007c;
+    color: #ffffff;
 }
 
 .slider__btn__left{
@@ -208,6 +208,7 @@ i.bx{
 /* ______________________ Seccion de 3 cards ____________________________ */
 section.card_section{
     background-color: #151515;
+    padding-bottom: 80px;
 }
 
 section.card_section h2.card-h2{
@@ -262,6 +263,44 @@ button.btn_card{
     border-radius:15px;
     margin-bottom: 40px;
 }
+
+/* _____________ SECCION INSTAGRAM _______________ */
+section.insta_section{
+    padding: 20px 0px 50px;
+
+}
+
+section.insta_section div.insta_hash{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.insta_section div.insta_hash p{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* _____________ SECCION QR _______________ */
+section.card_section div.card-conteiner-qr{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+section.card_section div.card-conteiner-qr div.card{
+    background-color: #1D1D1B;
+    height: 450px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 0px 60px;
+}
+
+
+
 
 
 
