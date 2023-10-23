@@ -229,9 +229,18 @@ section.card_section div.card-conteiner{
 section.card_section div.card-conteiner div.card{
     background-color: #1D1D1B;
     height: 450px;
-    width: 350px;
+    width: 300px;
     border-radius: 30px;
     padding: 20px;
+}
+
+div.card p.card-titulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div.card p.card-p{
+    font-size: 16px;
 }
 
 button.btn_card{
