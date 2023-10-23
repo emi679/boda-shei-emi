@@ -8,7 +8,7 @@ html, body{
     margin: 0;
     height: 100vh;
     text-align: center;
-    background-color: #000;
+    background-color: #1D1D1B;
     
 }
 .header{
@@ -27,7 +27,7 @@ h1.heading {
     font-family: 'Allura';
     font-size: 6em;
     font-weight: normal;
-    text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #1D1D1B;
 }
 .heading-subtext{
     color: #fff;
@@ -36,7 +36,7 @@ h1.heading {
     font-size: .6em;
 }
 .cuenta-regresiva{
-    background-color: #000;
+    background-color: #1D1D1B;
 }
 div.row{    
     display: flex;
@@ -94,7 +94,7 @@ div.row{
     margin-top: -5px;
 
 }
-.gif__copas{
+.gif{
     margin-top: 50px;
     width: 80px;
 }
@@ -187,6 +187,63 @@ i.bx{
 
 .slider__btn__right{
     right: 50px;
+}
+
+.btn_verMas{
+    margin-top: 30px;
+    background-color: #CBA35C;
+    font-family: 'Cinzel';
+    font-weight: 500;
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-radius:15px;
+    margin-bottom: 40px;
+}
+
+
+/* ______________________ Seccion de 3 cards ____________________________ */
+section.card_section{
+    background-color: #151515;
+}
+
+section.card_section h2.card-h2{
+    color: #CBA35C;
+    padding-bottom: 0px;
+    margin-bottom: -7px;
+}
+
+section.card_section p.sub{
+    margin-bottom: 100px;
+    color: #ffffff96;
+}
+
+section.card_section div.card-conteiner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+section.card_section div.card-conteiner div.card{
+    background-color: #1D1D1B;
+    height: 450px;
+    width: 350px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+button.btn_card{
+    margin-top: 30px;
+    background-color: #CBA35C;
+    font-family: 'Cinzel';
+    font-weight: 500;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius:15px;
+    margin-bottom: 40px;
 }
 
 
