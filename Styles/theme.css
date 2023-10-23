@@ -22,7 +22,7 @@ html, body{
     padding-top: 30vh;
 }
 h1.heading {
-    color: #ffffff;
+    color: #CBA35C;
     display: block;
     font-family: 'Allura';
     font-size: 6em;
@@ -33,7 +33,7 @@ h1.heading {
     color: #fff;
     display: block;
     font-family: 'Cinzel', cursive;
-    font-size: .6em;
+    font-size: .45em;
 }
 .cuenta-regresiva{
     background-color: #1D1D1B;
@@ -90,7 +90,7 @@ div.row{
 .sub-heading{
     font-family: 'Cinzel', cursive;
     font-size: 3em;
-    color:white;
+    color:#CBA35C;
     margin-top: -5px;
 
 }
@@ -101,13 +101,14 @@ div.row{
 p{
     color: #ffffff;
     font-family: "Cinzel";
+    font-size: 20px;
 }
 p.titulo{
- font-size: 20px;
+ font-size: 25px;
+ font-weight: bold;
 }
 
 p.texto{    
-    font-size: 15px;
     color: #ffffff96;
 }
 
@@ -115,7 +116,7 @@ p.texto{
 section.ceremonia{
     background-image: url("../img/fondoMarmolNegro.jpeg");
     padding: 20px 0px 80px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 section.ceremonia button{
     background-color: #CBA35C;
@@ -131,10 +132,12 @@ section.ceremonia button{
 
 /* __________________________ FOTOS __________________________ */
 
-.gif__camara{
-    margin-top: 20px;
-    width: 60px;
+div.conteiner-slider h2.sub-heading{
+    margin-bottom: 10px;
+}
 
+div.conteiner-slider p{
+    margin-bottom: 60px;
 }
 
 .conteiner-slider{
@@ -145,7 +148,7 @@ section.ceremonia button{
 
 .slider{
     width: 400%;
-    height: 700px;
+    height: 610px;
     display: flex;
     flex-wrap: nowrap;
     margin-left: 0%;
@@ -213,9 +216,13 @@ section.card_section h2.card-h2{
     margin-bottom: -7px;
 }
 
+section.card_section p{
+    margin-bottom: 20px;
+}
+
 section.card_section p.sub{
     margin-bottom: 100px;
-    color: #ffffff96;
+    color: #ffffff;
 }
 
 section.card_section div.card-conteiner{
@@ -235,6 +242,7 @@ section.card_section div.card-conteiner div.card{
 }
 
 div.card p.card-titulo{
+    color: #CBA35C;
     font-size: 30px;
     font-weight: bold;
 }
@@ -258,7 +266,7 @@ button.btn_card{
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 633px) {
     .header{
         height: 60vh;
     }
@@ -275,22 +283,9 @@ button.btn_card{
         margin-top: -15px;
     }
 
-    .slider{
-        height: 470px;
-    }
+    
 
-
-    .slider__btn{
-    transform: translateY(-450%);
-    }
-
-    .slider__btn__left{
-    left: 15px;
-    }
-
-    .slider__btn__right{
-    right: 15px;
-    }
+      /* ______________ CONTADOR _________________ */
 
     .cuenta-regresiva{
         background-color: #1D1D1B;
@@ -308,7 +303,6 @@ button.btn_card{
         align-items: center;
         justify-content: center;
     }
-    /* ______________ CONTADOR _________________ */
 
     .col-xs-3{
         width: 60px;
@@ -331,6 +325,22 @@ button.btn_card{
         right: 70px;
     }
 
+    .slider{
+        height: 470px;
+    }
+
+
+    .slider__btn{
+    transform: translateY(-450%);
+    }
+
+    .slider__btn__left{
+    left: 15px;
+    }
+
+    .slider__btn__right{
+    right: 15px;
+    }
 
     /* ______________ CARDS _________________ */
     section.card_section div.card-conteiner{
@@ -348,6 +358,21 @@ button.btn_card{
 
 }
 
-@media only screen and (min-width: 600px) and (max-width: 800px){
+@media only screen and (min-width: 634px) and (max-width: 800px){
+    .header{
+        height: 60vh;
+    }
+    .heading {
+        font-size: 0.25em;
+        padding: 0;
+    }
+
+    .heading-subtext{
+        
+    }
+
+
+
+
 
 }
