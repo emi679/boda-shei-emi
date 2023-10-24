@@ -18,9 +18,9 @@ html, body{
     background-position: 50% 60%;
     background-attachment: scroll;
     background-size: cover;
-    height: 49vh;
+    height: 400px;
     margin: 0;
-    padding-top: 60vh;
+    padding-top: 200px;
 }
 h1.heading {
     color: #CBA35C;
@@ -29,7 +29,7 @@ h1.heading {
     font-size: 7em;
     font-weight: normal;
     text-shadow: 0 0 10px #1D1D1B;
-    margin: 15px;
+    margin: 200px 0px 15px;
 }
 .heading-subtext{
     color: #fff;
@@ -50,7 +50,7 @@ div.row{
 /* __________ CONTADOR ____________ */
 .col-xs-3{
     width: 100px;
-    margin: 20px 60px;
+    margin: 0px 60px;
     color: #ffffff;
 }
 
@@ -395,8 +395,7 @@ footer p.footer-p-firma a{
 
 @media (max-width: 1000px) and (min-width: 800px){
 
-
-/*_______SLIDER_____________*/
+    /*_______SLIDER_____________*/
     .conteiner-slider{
         width: 80%;
     }
@@ -419,7 +418,7 @@ footer p.footer-p-firma a{
     }
 
 
-/* ______ Section 3 cards _______*/
+    /* ______ Section 3 cards _______*/
     section.card_section div.card-conteiner{
       flex-direction: column;
       align-items: center;
@@ -446,3 +445,93 @@ footer p.footer-p-firma a{
     }
 
 }
+
+
+
+@media (max-width: 799px) and (min-width: 500px){
+
+    /*-------------- H E A D E R --------------*/
+    .header{
+        height: 45vh;
+        
+    }
+
+
+    /*_______SLIDER_____________*/
+    .conteiner-slider{
+        width: 80%;
+    }
+
+    .slider{
+        width: 400%;
+        height: 450px;
+    }
+
+    .slider__btn{
+        transform: translateY(-370%);
+    }
+
+    i.bx{
+        font-size: 50px;
+    }
+
+    .slider__btn__left{
+        left: 30px;
+    }
+    
+    .slider__btn__right{
+        right: 30px;
+    }
+
+
+    /* ______ Section 3 cards _______*/
+    section.card_section div.card-conteiner{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    section.card_section{
+        background-color: #151515;
+        padding-bottom: 5px;
+    }
+
+    section.card_section div.card-conteiner div.card{
+        background-color: #1D1D1B;
+        height: 450px;
+        width: 300px;
+        margin-bottom: 60px;
+        border-radius: 30px;
+    }
+
+    /*___________Section instagram______________*/
+    section.insta_section{
+        padding: 20px 90px 50px;
+    
+    }
+
+
+    /*------------------footer---------------------*/
+    footer div{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    footer div p.heading{
+        width: 100%;
+        margin: 50px 0px 5px;
+    }
+
+    footer div ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:  50px 100px 0px;  
+    }
+
+
+
+}
+
+
+
