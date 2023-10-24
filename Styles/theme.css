@@ -173,12 +173,13 @@ div.conteiner-slider p{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 
 .slider__btn{
     position: absolute;
-    transform: translateY(-550%);
+    transform: translateY(-730%);
     cursor: pointer;
     padding: 0;
     background-color: #ffffff3e;
@@ -414,7 +415,7 @@ footer p.footer-p-firma a{
     }
 
     .slider__btn{
-        transform: translateY(-450%);
+        transform: translateY(-600%);
     }
 
     .slider__btn__left{
@@ -490,7 +491,7 @@ footer p.footer-p-firma a{
     }
 
     .slider__btn{
-        transform: translateY(-450%);
+        transform: translateY(-500%);
     }
 
     .slider__btn__left{
@@ -604,7 +605,7 @@ footer p.footer-p-firma a{
     }
 
     .slider__btn{
-        transform: translateY(-450%);
+        transform: translateY(-490%);
     }
 
     .slider__btn__left{
@@ -732,7 +733,7 @@ footer p.footer-p-firma a{
     }
 
     .slider__btn{
-        transform: translateY(-450%);
+        transform: translateY(-480%);
     }
 
     .slider__btn__left{
@@ -863,7 +864,7 @@ footer p.footer-p-firma a{
     }
 
     .slider__btn{
-        transform: translateY(-450%);
+        transform: translateY(-400%);
     }
 
     .slider__btn__left{
@@ -1014,7 +1015,7 @@ footer p.footer-p-firma a{
     }
 
     .slider__btn{
-        transform: translateY(-450%);
+        transform: translateY(-400%);
     }
 
     .slider__btn__left{
