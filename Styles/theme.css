@@ -448,7 +448,7 @@ footer p.footer-p-firma a{
 
 
 
-@media (max-width: 849px) and (min-width: 100px){
+@media (max-width: 849px) and (min-width: 680px){
 
     h1.heading{
         font-size: 6em;
@@ -495,6 +495,10 @@ footer p.footer-p-firma a{
 
 
     /* ______ Section 3 cards _______*/
+    section.card_section p.sub{
+        padding: 0px 100px;
+    }
+
     section.card_section div.card-conteiner{
       flex-direction: column;
       align-items: center;
@@ -519,7 +523,276 @@ footer p.footer-p-firma a{
         padding: 20px 90px 50px;
     
     }
+
+
+    /* _____________ SECCION QR _______________ */
+    #pagar-tarjeta{
+        margin-bottom: -50px;
+    }
+
+    section.card_section div.card-conteiner-qr{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.card_section div.card-conteiner-qr div.card{
+        margin: 0px 0px 60px;
+
+    }
+
+
+    /*---------foooter ---------*/
+ 
+    footer div{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    footer div ul{
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    footer div p.heading{
+        font-size: 3em;
+        width: 100%;
+        padding: 0px;
+    }
+
+
+}
+
+@media (max-width: 679px) and (min-width: 650px){
+
+    h1.heading{
+        font-size: 5.8em;
+    }
+
+    .heading-subtext{
+        font-size: .30em;
+    }
+
+    .col-xs-3{
+        margin: 0px 40px;
+    }
+
+    .col-xs-3 h3{
+        font-size: 23px;
+    }
+    
+    .col-xs-3 h4{
+        font-size: 16px;
+    }
+
+  
+    /*_______SLIDER_____________*/
+    .conteiner-slider{
+        width: 80%;
+    }
+
+    .slider{
+        width: 400%;
+        height: 450px;
+    }
+
+    .slider__btn{
+        transform: translateY(-450%);
+    }
+
+    .slider__btn__left{
+        left: 30px;
+    }
+    
+    .slider__btn__right{
+        right: 30px;
+    }
+
+
+    /* ______ Section 3 cards _______*/
+    section.card_section p.sub{
+        padding: 0px 100px;
+    }
+
+    section.card_section div.card-conteiner{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    section.card_section{
+        background-color: #151515;
+        padding-bottom: 5px;
+    }
+
+    section.card_section div.card-conteiner div.card{
+        background-color: #1D1D1B;
+        height: 450px;
+        width: 300px;
+        margin-bottom: 60px;
+        border-radius: 30px;
+    }
+
+    /*___________Section instagram______________*/
+    section.insta_section{
+        padding: 20px 90px 50px;
+    
+    }
+
+
+    /* _____________ SECCION QR _______________ */
+    #pagar-tarjeta{
+        margin-bottom: -50px;
+    }
+
+    section.card_section div.card-conteiner-qr{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.card_section div.card-conteiner-qr div.card{
+        margin: 0px 0px 60px;
+
+    }
+
+
+    /*---------foooter ---------*/
+ 
+    footer div{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    footer div ul{
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    footer div p.heading{
+        font-size: 3em;
+        width: 100%;
+        padding: 0px;
+    }
+
+
 }
 
 
 
+
+
+
+@media (max-width: 649px) and (min-width: 560px){
+
+    h1.heading{
+        font-size: 5.5em;
+        padding: 0px 50px;
+        margin-top: 140px;
+    }
+
+    .heading-subtext{
+        font-size: .27em;
+    }
+
+    .col-xs-3{
+        margin: 0px 20px;
+    }
+
+    .col-xs-3 h3{
+        font-size: 23px;
+    }
+    
+    .col-xs-3 h4{
+        font-size: 16px;
+    }
+
+  
+    /*_______SLIDER_____________*/
+    .conteiner-slider{
+        width: 80%;
+    }
+
+    .slider{
+        width: 400%;
+        height: 450px;
+    }
+
+    .slider__btn{
+        transform: translateY(-450%);
+    }
+
+    .slider__btn__left{
+        left: 30px;
+    }
+    
+    .slider__btn__right{
+        right: 30px;
+    }
+
+
+    /* ______ Section 3 cards _______*/
+    section.card_section p.sub{
+        padding: 0px 100px;
+    }
+
+    section.card_section div.card-conteiner{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    section.card_section{
+        background-color: #151515;
+        padding-bottom: 5px;
+    }
+
+    section.card_section div.card-conteiner div.card{
+        background-color: #1D1D1B;
+        height: 450px;
+        width: 300px;
+        margin-bottom: 60px;
+        border-radius: 30px;
+    }
+
+    /*___________Section instagram______________*/
+    section.insta_section{
+        padding: 20px 90px 50px;
+    
+    }
+
+
+    /* _____________ SECCION QR _______________ */
+    #pagar-tarjeta{
+        margin-bottom: -50px;
+    }
+
+    section.card_section div.card-conteiner-qr{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.card_section div.card-conteiner-qr div.card{
+        margin: 0px 0px 60px;
+
+    }
+
+
+    /*---------foooter ---------*/
+ 
+    footer div{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    footer div ul{
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    footer div p.heading{
+        font-size: 3em;
+        width: 100%;
+        padding: 0px;
+    }
+
+
+}
