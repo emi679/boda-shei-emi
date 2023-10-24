@@ -101,6 +101,7 @@ div.row{
     font-size: 3em;
     color:#CBA35C;
     margin-top: -5px;
+    text-align: center;
 
 }
 .gif{
@@ -277,7 +278,14 @@ button.btn_card{
 /* _____________ SECCION INSTAGRAM _______________ */
 section.insta_section{
     padding: 20px 0px 50px;
+}
 
+div.insta_hash{
+    text-align: center;
+}
+
+i.bxl-instagram{
+    font-size: 50px;
 }
 
 section.insta_section div.insta_hash{
@@ -903,7 +911,7 @@ footer p.footer-p-firma a{
 
     /*___________Section instagram______________*/
     section.insta_section{
-        padding: 20px 90px 50px;
+        padding: 20px 60px 50px;
     
     }
 
@@ -933,7 +941,12 @@ footer p.footer-p-firma a{
 
     footer div ul{
         margin-top: 50px;
+        padding: 0px 50px;
         align-items: center;
+    }
+
+    footer div ul li{
+        margin-bottom: 20px;
     }
 
     footer div p.heading{
@@ -1049,7 +1062,7 @@ footer p.footer-p-firma a{
 
     /*___________Section instagram______________*/
     section.insta_section{
-        padding: 20px 90px 50px;
+        padding: 20px 50px 50px;
     
     }
 
@@ -1078,8 +1091,12 @@ footer p.footer-p-firma a{
     }
 
     footer div ul{
-        margin-top: 50px;
+        margin: 50px 0px 00px 0px;
+        padding: 0px 50px;
         align-items: center;
+    }
+    footer div ul li{
+        margin:0px 0px 20px 0px;
     }
 
     footer div p.heading{
