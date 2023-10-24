@@ -819,7 +819,8 @@ footer p.footer-p-firma a{
     }
 
     h2.sub-heading{
-        font-size: 2.3em;
+        font-size: 2em;
+        text-align: center;
     }
 
     p{
@@ -850,7 +851,7 @@ footer p.footer-p-firma a{
 
     .slider{
         width: 400%;
-        height: 400px;
+        height: 330px;
     }
 
     .slider__btn{
