@@ -7,6 +7,7 @@
 html, body{
     margin: 0;
     height: 100vh;
+    width: 100%;
     text-align: center;
     background-color: #1D1D1B;
     
@@ -19,21 +20,23 @@ html, body{
     background-size: cover;
     height: 49vh;
     margin: 0;
-    padding-top: 30vh;
+    padding-top: 60vh;
 }
 h1.heading {
     color: #CBA35C;
     display: block;
     font-family: 'Allura';
-    font-size: 6em;
+    font-size: 7em;
     font-weight: normal;
     text-shadow: 0 0 10px #1D1D1B;
+    margin: 15px;
 }
 .heading-subtext{
     color: #fff;
     display: block;
     font-family: 'Cinzel', cursive;
     font-size: .45em;
+    margin-top: -20px;
 }
 .cuenta-regresiva{
     background-color: #1D1D1B;
@@ -154,7 +157,7 @@ div.conteiner-slider p{
 
 .slider{
     width: 400%;
-    height: 610px;
+    height: 500px;
     display: flex;
     flex-wrap: nowrap;
     margin-left: 0%;
@@ -174,7 +177,7 @@ div.conteiner-slider p{
 
 .slider__btn{
     position: absolute;
-    transform: translateY(-450%);
+    transform: translateY(-550%);
     cursor: pointer;
     padding: 0;
     background-color: #ffffff3e;
@@ -185,17 +188,17 @@ div.conteiner-slider p{
 
 i.bx{
     padding: 10px;
-    font-size: 55px;
+    font-size: 30px;
     border-radius: 20%;
     color: #ffffff;
 }
 
 .slider__btn__left{
-    left: 50px;
+    left: 40px;
 }
 
 .slider__btn__right{
-    right: 50px;
+    right: 40px;
 }
 
 .btn_verMas{
@@ -294,6 +297,7 @@ section.card_section div.card-conteiner-qr{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 80px;
 
 }
 
@@ -352,7 +356,7 @@ footer div ul li a{
 footer p.footer-p-firma{
     background-color: #151515;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 13px;
     padding: 12px 0px;
 }
 
@@ -360,123 +364,85 @@ footer p.footer-p-firma a{
     color: #CBA35C;
     text-decoration: none;
     font-family: 'Cinzel';
-    font-size: 18px;
+    font-size: 13px;
 }
 
 
 
 
 
+/* ______________Inicio responsive_________________*/
+
+@media (max-width: 1051px) and (min-width: 1001px){
 
 
-
-@media only screen and (max-width: 633px) {
-    .header{
-        height: 60vh;
-    }
-    .heading {
-        font-size: 0.25em;
-        padding: 0;
-    }
-
-    .heading-subtext{
-        color: #fff;
-        display: block;
-        font-family: 'Cinzel', cursive;
-        font-size: .25em;
-        margin-top: -15px;
-    }
-
+    /* ______________________ Seccion de 3 cards ____________________________ */
     
-
-      /* ______________ CONTADOR _________________ */
-
-    .cuenta-regresiva{
+    section.card_section div.card-conteiner div.card{
         background-color: #1D1D1B;
-    }
-    div.row{    
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        height: 450px;
+        width: 300px;
+        border-radius: 30px;
+        padding: 8px;
     }
 
-    div.time-item{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .col-xs-3{
-        width: 60px;
-        margin: 15px 40px;
-        color: #ffffff;
-    }
     
-    .col-xs-3 h3, .col-xs-3 h4{
-        color: #CBA35C;
-        font-size: 18px;
-        font-family: 'Cinzel';
-    }
+}
 
-    /* ______________ FOTOS _________________ */
-    .slider__btn__left{
-        left: 70px;
-    }
-    
-    .slider__btn__right{
-        right: 70px;
+
+
+
+
+@media (max-width: 1000px) and (min-width: 800px){
+
+
+/*_______SLIDER_____________*/
+    .conteiner-slider{
+        width: 80%;
     }
 
     .slider{
-        height: 470px;
+        width: 400%;
+        height: 450px;
     }
 
-
     .slider__btn{
-    transform: translateY(-450%);
+        transform: translateY(-450%);
     }
 
     .slider__btn__left{
-    left: 15px;
+        left: 30px;
     }
-
+    
     .slider__btn__right{
-    right: 15px;
+        right: 30px;
     }
 
-    /* ______________ CARDS _________________ */
+
+/* ______ Section 3 cards _______*/
     section.card_section div.card-conteiner{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    section.card_section{
+        background-color: #151515;
+        padding-bottom: 5px;
     }
 
     section.card_section div.card-conteiner div.card{
-        margin-bottom: 40px;
+        background-color: #1D1D1B;
+        height: 450px;
+        width: 300px;
+        margin-bottom: 60px;
+        border-radius: 30px;
     }
 
-
-
-
-}
-
-@media only screen and (min-width: 634px) and (max-width: 800px){
-    .header{
-        height: 60vh;
+    /*___________Section instagram______________*/
+    section.insta_section{
+        padding: 20px 90px 50px;
+    
     }
-    .heading {
-        font-size: 0.25em;
-        padding: 0;
-    }
-
-    .heading-subtext{
-        
-    }
-
-
-
-
 
 }
