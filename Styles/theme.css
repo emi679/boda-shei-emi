@@ -44,7 +44,7 @@ div.row{
     justify-content: center;
     align-items: center;
 }
-/* CONTADOR */
+/* __________ CONTADOR ____________ */
 .col-xs-3{
     width: 100px;
     margin: 20px 60px;
@@ -53,8 +53,14 @@ div.row{
 
 .col-xs-3 h3, .col-xs-3 h4{
     color: #CBA35C;
-    font-size: 20px;
     font-family: 'Cinzel';
+}
+.col-xs-3 h3{
+    font-size: 25px;
+}
+
+.col-xs-3 h4{
+    font-size: 18px;
 }
 
 .fixed-button{
@@ -168,7 +174,7 @@ div.conteiner-slider p{
 
 .slider__btn{
     position: absolute;
-    transform: translateY(-550%);
+    transform: translateY(-450%);
     cursor: pointer;
     padding: 0;
     background-color: #ffffff3e;
@@ -306,14 +312,62 @@ footer{
     background-color: #1D1D1B;
 }
 
-p.heading{
-color: #CBA35C;
+footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+footer div p.heading{
+    color: #CBA35C;
     display: block;
     font-family: 'Allura';
-    font-size: 6em;
+    font-size: 3.9em;
     font-weight: normal;
     text-shadow: 0 0 10px #1D1D1B;
+    width: 200px;
+    padding:  0px 100px;
 }
+
+footer div ul{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding:  0px 100px;
+    
+}
+
+footer div ul li{
+    margin: 5px;
+}
+
+footer div ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer p.footer-p-firma{
+    background-color: #151515;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 0px;
+}
+
+footer p.footer-p-firma a{
+    color: #CBA35C;
+    text-decoration: none;
+    font-family: 'Cinzel';
+    font-size: 18px;
+}
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 633px) {
