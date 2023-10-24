@@ -7,6 +7,9 @@ const slider = document.querySelector(".slider");
 
 const buttonMusica = document.querySelector("#cards > div:nth-child(1) > button");
 
+const buttonEmi = document.querySelector("#pagar-tarjeta > div > div:nth-child(1) > button");
+const buttonShei = document.querySelector("#pagar-tarjeta > div > div:nth-child(2) > button");
+
 //Funciones para ubicacacion y formulario
 
 buttonForm.addEventListener("click",(e)=>{
@@ -27,8 +30,7 @@ buttonForm.addEventListener("click",(e)=>{
 buttonUbicacion.addEventListener("click",(e)=>{
     //let ventana = window.open("https://maps.app.goo.gl/cwxKdMbJmg7kBgF39","_blank")
     Swal.fire({
-        html:
-          '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2855.745860044815!2d-60.837225593854654!3d-31.659214420224846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a72091885b8b%3A0xe3b48f36e5e35f0f!2sSal%C3%B3n%20La%20Colonia!5e0!3m2!1ses-419!2sar!4v1698183120650!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
+        html:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2855.745860044815!2d-60.837225593854654!3d-31.659214420224846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a72091885b8b%3A0xe3b48f36e5e35f0f!2sSal%C3%B3n%20La%20Colonia!5e0!3m2!1ses-419!2sar!4v1698183120650!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
         focusConfirm: false,
         showConfirmButton: false,
         showCloseButton: true,
@@ -87,4 +89,12 @@ buttonMusica.addEventListener('click',()=>{
         background: '#1D1D1B',
         width:'auto',
     })
+})
+
+buttonEmi.addEventListener('click',()=>{
+    console.log('click Emi')
+})
+
+buttonShei.addEventListener('click',()=>{
+    console.log('click Shei')
 })

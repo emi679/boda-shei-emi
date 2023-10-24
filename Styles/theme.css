@@ -4,6 +4,15 @@
     font-size: 16px;
     color: #222;
 }
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 html, body{
     margin: 0;
     height: 100vh;
