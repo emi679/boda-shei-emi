@@ -689,6 +689,13 @@ footer p.footer-p-firma a{
         margin-top: 140px;
     }
 
+    h2.sub-heading{
+        font-size: 2.5em;
+    }
+    p{
+        font-size: 17px;
+    }
+
     .heading-subtext{
         font-size: .27em;
     }
@@ -731,7 +738,7 @@ footer p.footer-p-firma a{
 
     /* ______ Section 3 cards _______*/
     section.card_section p.sub{
-        padding: 0px 100px;
+        padding: 0px 60px;
     }
 
     section.card_section div.card-conteiner{
@@ -751,6 +758,146 @@ footer p.footer-p-firma a{
         width: 300px;
         margin-bottom: 60px;
         border-radius: 30px;
+    }
+
+    /*___________Section instagram______________*/
+    section.insta_section{
+        padding: 20px 90px 50px;
+    
+    }
+
+
+    /* _____________ SECCION QR _______________ */
+    #pagar-tarjeta{
+        margin-bottom: -50px;
+    }
+
+    section.card_section div.card-conteiner-qr{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.card_section div.card-conteiner-qr div.card{
+        margin: 0px 0px 60px;
+
+    }
+
+
+    /*---------foooter ---------*/
+ 
+    footer div{
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+
+    footer div ul{
+        margin-top: 50px;
+        align-items: center;
+    }
+
+    footer div p.heading{
+        font-size: 3em;
+        width: 100%;
+        padding: 0px;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 559px) and (min-width: 382px){
+
+    h1.heading{
+        font-size: 5.5em;
+        padding: 0px 50px;
+        margin-top: 140px;
+    }
+
+    h2.sub-heading{
+        font-size: 2.3em;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .heading-subtext{
+        font-size: .27em;
+    }
+
+    .col-xs-3{
+        margin: 0px 10px;
+    }
+
+    .col-xs-3 h3{
+        font-size: 20px;
+    }
+    
+    .col-xs-3 h4{
+        font-size: 13px;
+    }
+
+  
+    /*_______SLIDER_____________*/
+    .conteiner-slider{
+        width: 80%;
+    }
+
+    .slider{
+        width: 400%;
+        height: 400px;
+    }
+
+    .slider__btn{
+        transform: translateY(-450%);
+    }
+
+    .slider__btn__left{
+        left: 30px;
+    }
+    
+    .slider__btn__right{
+        right: 30px;
+    }
+
+
+    /* ______ Section 3 cards _______*/
+    section.card_section p.sub{
+        padding: 0px 60px;
+    }
+
+    section.card_section div.card-conteiner{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    section.card_section{
+        background-color: #151515;
+        padding-bottom: 5px;
+    }
+
+    section.card_section div.card-conteiner div.card{
+        background-color: #1D1D1B;
+        height: 450px;
+        width: 280px;
+        margin-bottom: 60px;
+        border-radius: 30px;
+    }
+
+    div.card p.card-titulo{
+        color: #CBA35C;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    div.card p.card-p{
+        font-size: 14px;
     }
 
     /*___________Section instagram______________*/
