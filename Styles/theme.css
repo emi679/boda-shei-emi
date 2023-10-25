@@ -33,6 +33,9 @@ body.qr{
 body.qr img.qr{
     width: 200px;
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 img.qr{
     margin-bottom:20px;
@@ -163,7 +166,7 @@ div.row{
     margin-top: 50px;
     width: 80px;
 }
-p{
+p, span{
     color: #ffffff;
     font-family: "Cinzel";
     font-size: 20px;
