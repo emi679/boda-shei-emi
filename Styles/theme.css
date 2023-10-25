@@ -28,22 +28,22 @@ body.qr{
     flex-direction: column; 
     align-items: center;
     padding: 50px;
-    width: 500px;
+    width: 400px;
 }
 body.qr img.qr{
-    width: 250px;
+    width: 200px;
     margin-bottom: 60px;
 }
 img.qr{
-    margin:20px;
+    margin-bottom:20px;
 }
 body.qr h2.sub-heading.qr{
-    font-size: 1.7em;
+    font-size: 1.6em;
 }
 body.qr p.qr-titulo{
     margin: 0px 0px 5px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 17px;
 }
 body.qr div.qr{
     align-items: center;
