@@ -377,6 +377,9 @@ section.card_section div.card-conteiner-qr div.card{
     margin: 0px 60px;
 }
 
+#pagar-tarjeta p.sub{
+    padding: 0px 100px;
+}
 /* __________  FOOTER ______ */
 
 footer{

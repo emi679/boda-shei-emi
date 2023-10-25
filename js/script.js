@@ -96,7 +96,7 @@ buttonMusica.addEventListener('click',()=>{
 buttonEmi.addEventListener('click',()=>{
     console.log('click Emi');
     Swal.fire({
-        html:'<iframe src="./cuenta-emi.html" width="500" height="643" frameborder="0"></iframe>',
+        html:'<iframe src="./cuenta-emi.html" width="500" height="700" frameborder="0"></iframe>',
         focusConfirm: false,
         showConfirmButton: false,
         showCloseButton: true,
@@ -108,7 +108,7 @@ buttonEmi.addEventListener('click',()=>{
 buttonShei.addEventListener('click',()=>{
     console.log('click Shei');
     Swal.fire({
-            html:'<iframe src="./cuenta-shei.html" width="500" height="643" frameborder="0"></iframe>',
+            html:'<iframe src="./cuenta-shei.html" width="500" height="700" frameborder="0"></iframe>',
             focusConfirm: false,
             showConfirmButton: false,
             showCloseButton: true,
