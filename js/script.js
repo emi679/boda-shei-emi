@@ -10,6 +10,8 @@ const buttonMusica = document.querySelector("#cards > div:nth-child(1) > button"
 const buttonEmi = document.querySelector("#pagar-tarjeta > div > div:nth-child(1) > button");
 const buttonShei = document.querySelector("#pagar-tarjeta > div > div:nth-child(2) > button");
 
+const templateEmi = document.querySelector('#my-template')
+
 //Funciones para ubicacacion y formulario
 
 buttonForm.addEventListener("click",(e)=>{
@@ -92,9 +94,25 @@ buttonMusica.addEventListener('click',()=>{
 })
 
 buttonEmi.addEventListener('click',()=>{
-    console.log('click Emi')
+    console.log('click Emi');
+    Swal.fire({
+        html:'<iframe src="./cuenta-emi.html" width="640" height="643" frameborder="0"></iframe>',
+        focusConfirm: false,
+        showConfirmButton: false,
+        showCloseButton: true,
+        background: '#1D1D1B',
+        width:'auto',
+    })
 })
 
 buttonShei.addEventListener('click',()=>{
-    console.log('click Shei')
+    console.log('click Shei');
+    Swal.fire({
+            html:'<iframe src="./cuenta-shei.html" width="640" height="643" frameborder="0"></iframe>',
+            focusConfirm: false,
+            showConfirmButton: false,
+            showCloseButton: true,
+            background: '#1D1D1B',
+            width:'auto',
+        })
 })
