@@ -130,7 +130,7 @@ buttonShei.addEventListener('click',()=>{
 buttonDress.addEventListener('click',()=>{
     console.log('click Emi');
     Swal.fire({
-        html:'<iframe src="./dress-code.html" width="100%" height="600" frameborder="0"></iframe>',
+        html:'<iframe src="./dress-code.html" width="100%" height="400" frameborder="0"></iframe>',
         focusConfirm: false,
         showConfirmButton: false,
         showCloseButton: true,

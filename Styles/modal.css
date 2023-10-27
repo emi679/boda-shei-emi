@@ -56,6 +56,7 @@ body.qr div.qr{
 body.qr p.qr-texto{
     color: white;
     margin-bottom: 20px;
+    text-align: center;
 }
 body.qr div.qr p.qr-texto, body.qr div.qr button{   
     margin: 0px 15px;
