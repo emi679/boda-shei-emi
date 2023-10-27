@@ -30,15 +30,8 @@ buttonForm.addEventListener("click",(e)=>{
 })
 
 buttonUbicacion.addEventListener("click",(e)=>{
-    //let ventana = window.open("https://maps.app.goo.gl/cwxKdMbJmg7kBgF39","_blank")
-    Swal.fire({
-        html:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2855.745860044815!2d-60.837225593854654!3d-31.659214420224846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a72091885b8b%3A0xe3b48f36e5e35f0f!2sSal%C3%B3n%20La%20Colonia!5e0!3m2!1ses-419!2sar!4v1698183120650!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
-        focusConfirm: false,
-        showConfirmButton: false,
-        showCloseButton: true,
-        background: '#1D1D1B',
-        width:'auto',
-    })
+    let ventana = window.open("https://maps.app.goo.gl/cwxKdMbJmg7kBgF39","_blank")
+    
 })
 
 //Funciones para slider de fotos
@@ -96,23 +89,39 @@ buttonMusica.addEventListener('click',()=>{
 buttonEmi.addEventListener('click',()=>{
     console.log('click Emi');
     Swal.fire({
-        html:'<iframe src="./cuenta-emi.html" width="500" height="700" frameborder="0"></iframe>',
+        html:'<iframe src="./cuenta-emi.html" width="100%" height="600" frameborder="0"></iframe>',
         focusConfirm: false,
         showConfirmButton: false,
         showCloseButton: true,
         background: '#1D1D1B',
-        width:'auto',
+        width:'',
+            onOpen: function() {
+                // Obtén el ancho de la ventana modal
+                const modalWidth = this.getModal().querySelector('.swal-modal').offsetWidth;
+            
+                // Establece el ancho del iframe al ancho de la ventana modal
+                this.getContent().querySelector('iframe').style.width = `${modalWidth}px`;
+                
+            }
     })
 })
 
 buttonShei.addEventListener('click',()=>{
     console.log('click Shei');
     Swal.fire({
-            html:'<iframe src="./cuenta-shei.html" width="500" height="700" frameborder="0"></iframe>',
+            html:'<iframe src="./cuenta-shei.html" width="100%" height="600" frameborder="0"></iframe>',
             focusConfirm: false,
             showConfirmButton: false,
             showCloseButton: true,
             background: '#1D1D1B',
-            width:'auto',
+            width:'',
+            onOpen: function() {
+                // Obtén el ancho de la ventana modal
+                const modalWidth = this.getModal().querySelector('.swal-modal').offsetWidth;
+            
+                // Establece el ancho del iframe al ancho de la ventana modal
+                this.getContent().querySelector('iframe').style.width = `${modalWidth}px`;
+
+            }
         })
-})
+})  

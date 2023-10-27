@@ -28,8 +28,10 @@ body.qr{
     flex-direction: column; 
     align-items: center;
     padding: 50px;
-    width: 400px;
+    width: auto;
+    overflow-x: hidden;
 }
+
 body.qr img.qr{
     width: 200px;
     margin-bottom: 60px;
@@ -60,13 +62,15 @@ body.qr div.qr p.qr-texto, body.qr div.qr button{
 }
 body.qr div.qr button{
     border: none;
-    border-radius: 70px;
+    border-radius: 100px;
     padding:0px;
     background-color: none;
 }
 body.qr div.qr button i{
     background-color: #CBA35C;
     font-size: 18px;
+    width: 90px;
+    border-radius: 10px;
 }
 
 /*--------------HEADER---------------*/
