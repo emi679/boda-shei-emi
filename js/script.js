@@ -6,6 +6,7 @@ const buttonPrev = document.querySelector("#btn_left");
 const slider = document.querySelector(".slider");
 
 const buttonMusica = document.querySelector("#cards > div:nth-child(1) > button");
+const buttonDress = document.querySelector('#btn-dress');
 
 const buttonEmi = document.querySelector("#pagar-tarjeta > div > div:nth-child(1) > button");
 const buttonShei = document.querySelector("#pagar-tarjeta > div > div:nth-child(2) > button");
@@ -125,3 +126,23 @@ buttonShei.addEventListener('click',()=>{
             }
         })
 })  
+
+buttonDress.addEventListener('click',()=>{
+    console.log('click Emi');
+    Swal.fire({
+        html:'<iframe src="./dress-code.html" width="100%" height="600" frameborder="0"></iframe>',
+        focusConfirm: false,
+        showConfirmButton: false,
+        showCloseButton: true,
+        background: '#1D1D1B',
+        width:'',
+            onOpen: function() {
+                // Obtén el ancho de la ventana modal
+                const modalWidth = this.getModal().querySelector('.swal-modal').offsetWidth;
+            
+                // Establece el ancho del iframe al ancho de la ventana modal
+                this.getContent().querySelector('iframe').style.width = `${modalWidth}px`;
+                
+            }
+    })
+})
