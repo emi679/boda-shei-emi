@@ -1,6 +1,6 @@
 const buttonForm = document.querySelector("#formGoogle");
 const buttonUbicacion = document.querySelector("#ubicacion");
-/* const buttonCalendar = document.querySelector('#btn-calendario'); */
+const buttonCalendar = document.querySelector('#btn-calendario');
 
 const buttonNext = document.querySelector("#btn_right");
 const buttonPrev = document.querySelector("#btn_left");
@@ -17,21 +17,18 @@ const templateEmi = document.querySelector('#my-template')
 
 //Funciones para calendario ubicacacion y formulario
 
-/* buttonCalendar.addEventListener('click',()=>{
+buttonCalendar.addEventListener('click',()=>{
     console.log('click calendario')
-    const fechaInicio = new Date('03/23/2024 9:00 PM');
-    const fechaFinal = new Date('03/24/2024 6:00 AM')
+    Swal.fire({
+        html:'<iframe src="./calendario.html" width="100%" height="643" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>',
+        focusConfirm: false,
+        showConfirmButton: false,
+        showCloseButton: true,
+        background: '#1D1D1B',
+        width:'',
+    })
 
-    const event = new CalendarJS.Event({
-        title: 'Your Event Title',
-        description: 'Your Event Description',
-        location: 'Your Event Location',
-        start: fechaInicio,
-        end: fechaFinal
-    });
-    calendar.addToCalendar(event);
-
-}) */
+})
 
 buttonForm.addEventListener("click",(e)=>{
     //let ventana = window.open("https://forms.gle/Huj4FgwJ1dgkWVgt8","_blank");

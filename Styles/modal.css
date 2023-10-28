@@ -22,6 +22,7 @@ body.qr{
     display: flex;
     flex-direction: column; 
     align-items: center;
+    justify-content: center;
     padding: 50px;
     width: auto;
     overflow-x: hidden;
@@ -40,12 +41,35 @@ img.qr{
 }
 body.qr h2.sub-heading.qr{
     font-size: 1.6em;
+    margin-bottom: 50px;
 }
 body.qr p.qr-titulo{
     margin: 0px 0px 5px;
     font-weight: bold;
     font-size: 17px;
     color: white;
+}
+
+body.qr button.btn-calendar{
+    background-color: #CBA35C;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.qr button.btn-calendar img{
+    width: 20px;
+}
+
+body.qr button.btn-calendar p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Cinzel';
+    margin-left: 7px;
 }
 
 body.qr div.qr{
