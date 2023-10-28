@@ -1,3 +1,4 @@
+const buttonCalendar = document.querySelector('#calendario')
 const buttonForm = document.querySelector("#formGoogle");
 const buttonUbicacion = document.querySelector("#ubicacion");
 
@@ -14,18 +15,32 @@ const buttonShei = document.querySelector("#pagar-tarjeta > div > div:nth-child(
 
 const templateEmi = document.querySelector('#my-template')
 
-//Funciones para ubicacacion y formulario
+//Funciones para calendario ubicacacion y formulario
+
+buttonCalendar.addEventListener('click',()=>{
+    console.log('click calendario')
+    const fechaInicio = new Date('03/23/2024 9:00 PM');
+    const fechaFinal = new Date('03/24/2024 6:00 AM')
+
+    const evento = {
+        title: "Boda Sheila y Emiliano",
+        start: fechaInicio,
+        end: fechaFinal,
+    }
+
+    navigator.calendar.createEvent(evento)
+})
 
 buttonForm.addEventListener("click",(e)=>{
     //let ventana = window.open("https://forms.gle/Huj4FgwJ1dgkWVgt8","_blank");
 
     Swal.fire({
-        html: '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe46V1G_7SeRwoxcvaztCNKVAS6fYmfttOUG49KQ8qbBrhcSw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>',
+        html: '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe46V1G_7SeRwoxcvaztCNKVAS6fYmfttOUG49KQ8qbBrhcSw/viewform?embedded=true" width="100%" height="520" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>',
         showCloseButton: true,
         focusConfirm: false,
         showConfirmButton: false,
         background: '#1D1D1B',
-        width:'auto',
+        width:'',
         padding: '20px',
     })
     
@@ -79,7 +94,7 @@ buttonPrev.addEventListener("click",()=>{
 
 buttonMusica.addEventListener('click',()=>{
     Swal.fire({
-        html:'<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGZxUgFmmdQ2pJqBtICiv0m4V41CZLKYv4XwugqR1bQnOQMQ/viewform?embedded=true" width="640" height="643" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>',
+        html:'<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGZxUgFmmdQ2pJqBtICiv0m4V41CZLKYv4XwugqR1bQnOQMQ/viewform?embedded=true" width="100%" height="643" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>',
         focusConfirm: false,
         showConfirmButton: false,
         showCloseButton: true,

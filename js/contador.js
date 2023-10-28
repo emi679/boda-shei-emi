@@ -1,4 +1,4 @@
-const DATE_TARGET = new Date('03/23/2024 8:00 PM');
+const DATE_TARGET = new Date('03/23/2024 9:00 PM');
 
 const SPAN_DAYS = document.querySelector("#days > h3");
 const SPAN_HOURS = document.querySelector("#hours > div > h3");
