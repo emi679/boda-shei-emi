@@ -15,6 +15,8 @@ const buttonShei = document.querySelector("#pagar-tarjeta > div > div:nth-child(
 
 const templateEmi = document.querySelector('#my-template')
 
+const btnContacto = document.querySelector('#btn-conil')
+
 //Funciones para calendario ubicacacion y formulario
 
 buttonCalendar.addEventListener('click',()=>{
@@ -180,4 +182,8 @@ buttonNotas.addEventListener('click',()=>{
                 
             }
     })
+})
+
+btnContacto.addEventListener('click',()=>{
+    
 })

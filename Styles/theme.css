@@ -21,6 +21,9 @@ html, body{
     background-color: #1D1D1B;
 
 }
+button:hover{
+    background-color: #c79238;
+}
 
 /*-----------DATOS  CBU  -----------*/
 
@@ -153,6 +156,10 @@ section.ceremonia button{
     margin-bottom: 40px;
 }
 
+section.ceremonia button:hover{
+    background-color: #c79238;
+}
+
 
 /* __________________________ FOTOS __________________________ */
 
@@ -229,6 +236,9 @@ i.bx{
     margin-bottom: 40px;
 }
 
+.btn_verMas:hover{
+    background-color: #c79238;
+}
 
 /* ______________________ Seccion de 3 cards ____________________________ */
 section.card_section{
@@ -288,6 +298,10 @@ button.btn_card{
     border: none;
     border-radius:15px;
     margin-bottom: 40px;
+}
+
+button.btn_card:hover{
+    background-color: #c79238;
 }
 
 /* _____________ SECCION INSTAGRAM _______________ */
@@ -393,8 +407,18 @@ footer p.footer-p-firma a{
     font-size: 13px;
 }
 
+button#btn-conil{
+    color: #CBA35C;
+    border: none;
+    background-color: #ffffff00;
+    font-size: 13px;
+    font-weight: bold;
+}
 
+button#btn-conil:hover{
+    color:#ffff;
 
+}
 
 
 /* ______________Inicio responsive_________________*/
